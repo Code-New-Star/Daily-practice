@@ -1,0 +1,7 @@
+﻿  test.c
+D:\yangjun\代码\Daily-practice\Project1\Project1\test.c(95,16): warning C4013: “getch”未定义；假设外部返回 int
+D:\yangjun\代码\Daily-practice\Project1\Project1\test.c(405,10): warning C4477: “scanf”: 格式字符串“%f”需要类型“float *”的参数，但可变参数 1 拥有了类型“double *”
+  D:\yangjun\代码\Daily-practice\Project1\Project1\test.c(405,10):
+  请考虑在格式字符串中使用“%lf”
+  
+  Project1.vcxproj -> D:\yangjun\代码\Daily-practice\Project1\x64\Debug\Project1.exe

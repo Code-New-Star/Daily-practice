@@ -1,5 +1,194 @@
 ﻿  Concert system.c
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.h(21,4): error C2061: 语法错误: 标识符“ticket”
+  (编译源文件“Concert%20system.c”)
+  
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.h(22,2): error C2059: 语法错误:“}”
+  (编译源文件“Concert%20system.c”)
+  
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.h(24,8): error C2143: 语法错误: 缺少“{”(在“*”的前面)
+  (编译源文件“Concert%20system.c”)
+  
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.h(38,24): error C2143: 语法错误: 缺少“)”(在“*”的前面)
+  (编译源文件“Concert%20system.c”)
+  
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.h(38,24): error C2143: 语法错误: 缺少“{”(在“*”的前面)
+  (编译源文件“Concert%20system.c”)
+  
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.h(38,27): error C2059: 语法错误:“)”
+  (编译源文件“Concert%20system.c”)
+  
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(28,16): warning C4013: “getch”未定义；假设外部返回 int
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(15,3): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(23,4): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(47,4): error C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(67,4): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(69,4): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(96,9): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(99,3): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(110,7): error C2040: “time”:“char [100]”与“int”的间接寻址级别不同
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(111,8): error C2065: “ticket”: 未声明的标识符
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(111,12): error C2065: “b”: 未声明的标识符
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(111,12): warning C4047: “=”:“int”与“int *”的间接级别不同
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(111,8): error C2106: “=”: 左操作数必须为左值
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(114,19): warning C4477: “fscanf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 4 拥有了类型“int”
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(117,9): error C2065: “ticket”: 未声明的标识符
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(117,13): error C2065: “a”: 未声明的标识符
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(117,22): error C2065: “ticket”: 未声明的标识符
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(117,23): error C2059: 语法错误:“)”
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(118,4): error C2065: “b”: 未声明的标识符
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(118,6): error C2223: “->next”的左侧必须指向结构/联合
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(118,14): error C2065: “a”: 未声明的标识符
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(120,11): error C2065: “a”: 未声明的标识符
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(120,13): error C2223: “->name”的左侧必须指向结构/联合
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(120,3): error C2198: “strcpy”: 用于调用的参数太少
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(121,11): error C2065: “a”: 未声明的标识符
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(121,13): error C2223: “->location”的左侧必须指向结构/联合
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(121,3): error C2198: “strcpy”: 用于调用的参数太少
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(122,4): error C2065: “a”: 未声明的标识符
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(122,6): error C2223: “->price”的左侧必须指向结构/联合
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(123,11): error C2065: “a”: 未声明的标识符
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(123,13): error C2223: “->time”的左侧必须指向结构/联合
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(123,19): warning C4047: “函数”:“char *”与“int”的间接级别不同
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(123,19): warning C4024: “strcpy”: 形参和实参 1 的类型不同
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(123,3): error C2198: “strcpy”: 用于调用的参数太少
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(127,5): error C2065: “b”: 未声明的标识符
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(127,8): error C2065: “b”: 未声明的标识符
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(127,10): error C2223: “->next”的左侧必须指向结构/联合
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(131,4): error C2065: “b”: 未声明的标识符
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(131,6): error C2223: “->next”的左侧必须指向结构/联合
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(114,9): error C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(120,3): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(121,3): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(123,3): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(138,8): error C2065: “ticket”: 未声明的标识符
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(138,12): error C2065: “a”: 未声明的标识符
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(138,21): error C2065: “ticket”: 未声明的标识符
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(138,22): error C2059: 语法错误:“)”
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(140,3): error C2065: “a”: 未声明的标识符
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(140,5): error C2223: “->price”的左侧必须指向结构/联合
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(141,10): error C2065: “a”: 未声明的标识符
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(141,12): error C2223: “->name”的左侧必须指向结构/联合
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(141,2): error C2198: “strcpy”: 用于调用的参数太少
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(142,10): error C2065: “a”: 未声明的标识符
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(142,12): error C2223: “->location”的左侧必须指向结构/联合
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(142,2): error C2198: “strcpy”: 用于调用的参数太少
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(143,10): error C2065: “a”: 未声明的标识符
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(143,12): error C2223: “->time”的左侧必须指向结构/联合
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(143,2): error C2198: “strcpy”: 用于调用的参数太少
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(145,3): error C2065: “a”: 未声明的标识符
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(145,5): error C2223: “->next”的左侧必须指向结构/联合
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(146,15): error C2065: “a”: 未声明的标识符
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(146,12): warning C4047: “=”:“int *”与“int”的间接级别不同
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(141,2): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(142,2): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(143,2): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(151,8): error C2065: “ticket”: 未声明的标识符
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(151,11): error C2065: “a”: 未声明的标识符
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(151,20): error C2065: “ticket”: 未声明的标识符
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(151,21): error C2059: 语法错误:“)”
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(154,15): error C2065: “a”: 未声明的标识符
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(154,17): error C2223: “->name”的左侧必须指向结构/联合
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(154,8): warning C4473: “scanf”: 没有为格式字符串传递足够的参数
+  D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(154,8):
+  占位符和其参数预计 1 可变参数，但提供的却是 0 参数
+  D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(154,8):
+  缺失的可变参数 1 为格式字符串“%s”所需
+  
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(156,15): error C2065: “a”: 未声明的标识符
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(156,17): error C2223: “->location”的左侧必须指向结构/联合
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(156,8): warning C4473: “scanf”: 没有为格式字符串传递足够的参数
+  D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(156,8):
+  占位符和其参数预计 1 可变参数，但提供的却是 0 参数
+  D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(156,8):
+  缺失的可变参数 1 为格式字符串“%s”所需
+  
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(158,17): error C2065: “a”: 未声明的标识符
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(158,19): error C2223: “->price”的左侧必须指向结构/联合
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(158,8): warning C4473: “scanf”: 没有为格式字符串传递足够的参数
+  D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(158,8):
+  占位符和其参数预计 1 可变参数，但提供的却是 0 参数
+  D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(158,8):
+  缺失的可变参数 1 为格式字符串“%lf”所需
+  
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(161,15): error C2065: “a”: 未声明的标识符
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(161,17): error C2223: “->time”的左侧必须指向结构/联合
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(161,8): warning C4473: “scanf”: 没有为格式字符串传递足够的参数
+  D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(161,8):
+  占位符和其参数预计 1 可变参数，但提供的却是 0 参数
+  D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(161,8):
+  缺失的可变参数 1 为格式字符串“%s”所需
+  
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(164,3): error C2065: “a”: 未声明的标识符
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(164,5): error C2223: “->next”的左侧必须指向结构/联合
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(165,8): error C2065: “ticket”: 未声明的标识符
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(165,12): error C2065: “b”: 未声明的标识符
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(165,12): warning C4047: “=”:“int”与“int *”的间接级别不同
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(165,8): error C2106: “=”: 左操作数必须为左值
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(166,10): error C2065: “b”: 未声明的标识符
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(166,12): error C2223: “->next”的左侧必须指向结构/联合
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(167,5): error C2065: “b”: 未声明的标识符
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(167,8): error C2065: “b”: 未声明的标识符
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(167,10): error C2223: “->next”的左侧必须指向结构/联合
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(168,3): error C2065: “b”: 未声明的标识符
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(168,5): error C2223: “->next”的左侧必须指向结构/联合
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(168,13): error C2065: “a”: 未声明的标识符
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(154,2): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(156,2): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(158,2): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(161,2): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(176,8): error C2065: “ticket”: 未声明的标识符
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(176,11): error C2065: “a”: 未声明的标识符
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(176,16): error C2065: “b”: 未声明的标识符
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(176,13): error C2100: 非法的间接寻址
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(177,4): error C2065: “a”: 未声明的标识符
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(177,8): error C2065: “b”: 未声明的标识符
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(177,21): error C2223: “->next”的左侧必须指向结构/联合
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(182,17): error C2065: “a”: 未声明的标识符
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(182,19): error C2223: “->name”的左侧必须指向结构/联合
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(182,9): error C2198: “strcmp”: 用于调用的参数太少
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(184,5): error C2065: “b”: 未声明的标识符
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(184,8): error C2065: “a”: 未声明的标识符
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(185,5): error C2065: “a”: 未声明的标识符
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(185,8): error C2065: “b”: 未声明的标识符
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(185,10): error C2223: “->next”的左侧必须指向结构/联合
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(186,9): error C2065: “a”: 未声明的标识符
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(186,9): warning C4047: “==”:“int”与“void *”的间接级别不同
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(199,44): error C2065: “a”: 未声明的标识符
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(199,46): error C2223: “->name”的左侧必须指向结构/联合
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(199,53): error C2065: “a”: 未声明的标识符
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(199,55): error C2223: “->location”的左侧必须指向结构/联合
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(199,66): error C2065: “a”: 未声明的标识符
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(199,68): error C2223: “->price”的左侧必须指向结构/联合
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(199,76): error C2065: “a”: 未声明的标识符
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(199,78): error C2223: “->time”的左侧必须指向结构/联合
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(199,10): warning C4473: “printf”: 没有为格式字符串传递足够的参数
+  D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(199,10):
+  占位符和其参数预计 5 可变参数，但提供的却是 1 参数
+  D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(199,10):
+  缺失的可变参数 2 为格式字符串“%*s”所需
+  D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(199,10):
+  此参数由转换说明符使用
+  
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(180,2): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(211,8): error C2065: “ticket”: 未声明的标识符
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.c(211,8): error C1003: 错误计数超过 100；正在停止编译
   test.c
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.h(21,4): error C2061: 语法错误: 标识符“ticket”
+  (编译源文件“test.c”)
+  
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.h(22,2): error C2059: 语法错误:“}”
+  (编译源文件“test.c”)
+  
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.h(24,8): error C2143: 语法错误: 缺少“{”(在“*”的前面)
+  (编译源文件“test.c”)
+  
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.h(38,24): error C2143: 语法错误: 缺少“)”(在“*”的前面)
+  (编译源文件“test.c”)
+  
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.h(38,24): error C2143: 语法错误: 缺少“{”(在“*”的前面)
+  (编译源文件“test.c”)
+  
+D:\yangjun\代码\Daily-practice\Concert system\Concert system\Concert system.h(38,27): error C2059: 语法错误:“)”
+  (编译源文件“test.c”)
+  
   正在生成代码...
-  LINK : 没有找到 D:\yangjun\代码\Daily-practice\Concert system\x64\Debug\Concert system.exe 或上一个增量链接没有生成它；正在执行完全链接
-  Concert system.vcxproj -> D:\yangjun\代码\Daily-practice\Concert system\x64\Debug\Concert system.exe
