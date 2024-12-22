@@ -1,7 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 
 
-////第一次作业
+////////第一次作业
 //#include<iostream>
 //using namespace std;
 //double fac(double n) {
@@ -62,7 +62,7 @@
 //	cout << "1!+2!+3!+...+20!=" << sum;
 //	return 0;
 //}
-//
+
 
 ////第四次作业
 //#include<iostream>
@@ -208,3 +208,61 @@
 //	hunman.show();
 //	return 0;
 //}
+
+//
+//#include <iostream>
+//#include <iomanip>
+//using namespace std;
+//int main()
+//{
+//    double p = 1, q = 2, s = 0, t;
+//    int n;
+//    cin >> n;
+//    for (int i = 0; i < n; i++)
+//    {
+//        s += q / p;
+//        t = q;
+//        q += p;
+//        p = t;
+//    }
+//    cout << fixed << setprecision(4) << s << endl;
+//    return 0;
+//}
+
+#include<iostream>
+using namespace std;
+class Student
+{
+public:
+	Student(string num1, double graude1):num(num1), graude(graude1) {};
+	friend Student* max(Student*s,int N);
+	void dispay();
+private:
+	string num;
+	double graude;
+};
+
+Student* max(Student*s,int N) {
+	double temp = s->graude;
+	int j = 0;
+	for (int i = 0; i < N; i++)
+	{
+		if (s[i].graude > temp) {
+			temp = s[i].graude;
+			j = i;
+		}
+	}
+	return s + j;
+}
+
+void Student::dispay() {
+	cout << "学号："<<num <<"  "<< "成绩：" << graude;
+}
+
+int main() {
+	Student s[5] = { Student("20231101",89),Student("20231102",85),Student("20231103",91),Student("20231104",95),Student("20231105",86) };
+	Student* ps;
+	ps = max(s, 5);
+	ps->dispay();
+	return 0;
+}

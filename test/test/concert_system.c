@@ -1,5 +1,5 @@
-#define _CRT_SECURE_NO_WARNINGS
-#include "concert_system.h"
+
+
 
 // 全局链表头指针定义
 User* userList = NULL;
@@ -117,6 +117,7 @@ void registerUser() {
     newUser->next = userList;
     userList = newUser;
     printf("注册成功！\n");
+    Sleep(3000);
     saveData();
 }
 
@@ -161,7 +162,6 @@ int userLogin() {
 
 // 注册管理员
 void registerAdmin() {
-    system("cls");
     Admin* newAdmin = (Admin*)malloc(sizeof(Admin));
     printf("请输入用户名：");
     scanf("%s", newAdmin->username);
@@ -170,6 +170,7 @@ void registerAdmin() {
     newAdmin->next = adminList;
     adminList = newAdmin;
     printf("管理员注册成功！\n");
+    Sleep(3000);
     saveData();
 }
 
@@ -216,19 +217,16 @@ void addConcert() {
     Concert* newConcert = (Concert*)malloc(sizeof(Concert));
     printf("请输入演唱会名称：");
     scanf("%s", newConcert->name);
-    printf("\n");
     printf("请输入表演者：");
     scanf("%s", newConcert->performer); 
-    printf("\n");
     printf("请输入场地：");
     scanf("%s", newConcert->venue);
-    printf("\n");
     printf("请输入日期：");
-    printf("\n");
     scanf("%s", newConcert->date);
     newConcert->next = concertList;
     concertList = newConcert;
     printf("演唱会项目添加成功！\n");
+    Sleep(3000);
 }
 
 // 删除演唱会项目
@@ -248,12 +246,14 @@ void deleteConcert() {
             }
             free(current);
             printf("演唱会项目删除成功！\n");
+            Sleep(3000);
             return;
         }
         prev = current;
         current = current->next;
     }
     printf("未找到对应的演唱会项目，删除失败！\n");
+    Sleep(3000);
 }
 
 // 查询演唱会项目
@@ -270,28 +270,39 @@ void searchConcert() {
             printf("名称: %s，表演者: %s，场地: %s，日期: %s\n",
                 current->name, current->performer,
                 current->venue, current->date);
+            Sleep(3000);
         }
         current = current->next;
     }
     printf("未找到对应的演唱会项目！\n");
+    Sleep(3000);
 }
 
 // 修改演唱会项目
 void modifyConcert() {
     char concertName[Concert_length];
+    printf("请输入要修改的演唱会名称：");
     scanf("%s", concertName);
     Concert* current = concertList;
     while (current != NULL) {
         if (strcmp(current->name, concertName) == 0) {
+            printf("名称: %s，表演者: %s，场地: %s，日期: %s\n",
+                current->name, current->performer,
+                current->venue, current->date);
+            printf("请输入表演者：");
             scanf("%s", current->performer);
+            printf("请输入场地：");
             scanf("%s", current->venue);
+            printf("请输入日期：");
             scanf("%s", current->date);
             printf("演唱会项目修改成功！\n");
+            Sleep(3000);
             return;
         }
         current = current->next;
     }
     printf("未找到对应的演唱会项目，修改失败！\n");
+    Sleep(3000);
 }
 
 // 购买门票
@@ -311,6 +322,7 @@ void buyTicket() {
     }
     if (user == NULL) {
         printf("用户不存在，购票失败！\n");
+        Sleep(3000);
         return;
     }
     Concert* concert = concertList;
@@ -322,6 +334,7 @@ void buyTicket() {
     }
     if (concert == NULL) {
         printf("演唱会不存在，购票失败！\n");
+        Sleep(3000);
         return;
     }
     Ticket* newTicket = (Ticket*)malloc(sizeof(Ticket));
@@ -330,6 +343,7 @@ void buyTicket() {
     newTicket->next = ticketList;
     ticketList = newTicket;
     printf("购票成功！\n");
+    Sleep(3000);
 }
 
 // 按日期筛选演唱会
@@ -342,7 +356,8 @@ void filterConcertsByDate(const char* startDate, const char* endDate) {
                 current->venue, current->date);
         }
         current = current->next;
-    }
+    }  
+    Sleep(3000);
 }
 
 // 按表演者筛选演唱会
@@ -353,6 +368,7 @@ void filterConcertsByPerformer(const char* performerName) {
             printf("名称: %s，表演者: %s，场地: %s，日期: %s\n",
                 current->name, current->performer,
                 current->venue, current->date);
+            Sleep(3000);
         }
         current = current->next;
     }
@@ -369,6 +385,7 @@ void viewPurchasedTickets(const char* username) {
                     printf("演唱会名称: %s，表演者: %s，场地: %s，日期: %s\n",
                         concert->name, concert->performer,
                         concert->venue, concert->date);
+                    Sleep(3000);
                     break;
                 }
                 concert = concert->next;
@@ -408,17 +425,21 @@ void userMenu() {
             Sleep(1000);
             break;
         case 3:
+            printf("请按 年/月/日 形式，输入开始日期：");
             scanf("%s", startDate);
+            printf("请按 年/月/日 形式，输入结束日期：");
             scanf("%s", endDate);
             filterConcertsByDate(startDate, endDate);
             Sleep(1000);
             break;
         case 4:
+            printf("请输入表演者：");
             scanf("%s", performerName);
             filterConcertsByPerformer(performerName);
             Sleep(1000);
             break;
         case 5:
+            printf("请输入用户名：");
             scanf("%s", username);
             viewPurchasedTickets(username);
             Sleep(1000);
